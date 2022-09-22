@@ -1,5 +1,13 @@
+* { 
+  margin:0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+    border: none
   }
   
   main{
@@ -9,6 +17,7 @@ header{
   aside{
     width: 180px;
     border: 1px solid black;
+    
   }
   
   footer{
@@ -21,4 +30,44 @@ header{
     background-color: black;
     color: white;
     font-family: serif;
+
+  }
+
+  .clicado:active{
+    background-color: white;
+    color: black;
+  }
+
+  aside:active{
+    background-color: black;
+    color: white;
+}
+
+  .corpo-texto{
+    border: 1px solid black;
+    width: 100vw;
+    text-align: center;
+  }
+    
+
+  .fixado-direita{
+    margin-left: 80vw;
+    
+    }
+
+  .texto-centralizado{
+    text-align: center;
+  }
+
+
+
+  aside{
+    
+    text-align: center;
+  }
+
+  footer{
+    position: absolute;
+    bottom: 0;
+
   }
